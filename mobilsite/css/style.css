@@ -1,0 +1,44 @@
+h1 {
+  font: size 30px;
+}
+body {
+  background-color: darkseagreen;
+  opacity: 0, 3;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a:link {
+  color: lavender;
+}
+a:hover{ 
+color: beige;
+}
+a:visited {
+  color: cornflowerblue;
+}
+header {
+  background-color: rgb(206, 199, 178);
+  padding: 10px;
+  margin: 5px;
+  outline-style: outset;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  margin: 20px;
+  padding: 10%;
+}
+h1{font-family:font1; }
+@font-face {
+    font-family:font1 ;
+    src: url(../fonts/adlamdisplay-regular-webfont.woff2);
+}
+@font-face {
+    font-family:font2;
+    src: url(../fonts/caveat-variablefont_wght-webfont.woff);
+}
+p,li,dl,dd,dt{font-family:font2;}
